@@ -1,4 +1,4 @@
-Weather Icon View
+WeatherIconView
 ===============================
 
 TBD
