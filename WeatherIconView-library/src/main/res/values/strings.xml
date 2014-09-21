@@ -2,8 +2,7 @@
     <string name="app_name">WeatherIconView library</string>
 
     <!-- Weather Icons codes -->
-    <!-- See: https://githubcom/erikflowers -->
-    <!-- and: https://githubcom/erikflowers/weather-icons/blob/master/css/weather_icons.css -->
+    <!-- See: https://github.com/erikflowers/weather-icons/ -->
     <string name="wi_day_cloudy_gusts">&#xf000;</string>
     <string name="wi_day_cloudy_windy">&#xf001;</string>
     <string name="wi_day_cloudy">&#xf002;</string>
