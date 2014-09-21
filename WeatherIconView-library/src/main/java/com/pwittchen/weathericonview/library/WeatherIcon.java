@@ -125,14 +125,14 @@ public enum WeatherIcon {
     WI_MOON_WANING_GIBBOUS(R.string.wi_moon_waning_gibbous),
     WI_NIGHT_PARTLY_CLOUDY(R.string.wi_night_partly_cloudy);
 
-    private int weatherIcon;
+    private int weatherIconResource;
 
-    WeatherIcon(int weatherIcon) {
-        this.weatherIcon = weatherIcon;
+    WeatherIcon(int weatherIconResource) {
+        this.weatherIconResource = weatherIconResource;
     }
 
     @Override
     public String toString() {
-        return BaseApplication.getContext().getString(weatherIcon);
+        return BaseApplication.getContext().getString(weatherIconResource);
     }
 }
