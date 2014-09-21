@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WeatherIconView">
+        <attr name="weatherIcon" format="string" />
+        <attr name="weatherIconSize" format="integer" />
+        <attr name="weatherIconColor" format="color" />
+    </declare-styleable>
+</resources>
