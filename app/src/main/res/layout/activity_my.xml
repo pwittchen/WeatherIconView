@@ -9,10 +9,10 @@
     android:paddingTop="@dimen/activity_vertical_margin">
 
     <com.pwittchen.weathericonview.library.WeatherIconView
-        android:id="@+id/weather_icon"
+        android:id="@+id/my_weather_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        custom:weatherIcon="WI_DAY_CLOUDY_GUSTS"
+        custom:weatherIconResource="@string/wi_day_sunny"
         custom:weatherIconColor="@android:color/black"
         custom:weatherIconSize="200" />
 

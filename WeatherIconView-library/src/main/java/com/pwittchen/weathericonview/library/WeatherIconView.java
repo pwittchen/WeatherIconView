@@ -7,6 +7,12 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
+/**
+ * Weather Icon View allows you to create Weather Icon for your Android application
+ * It's based on Erik Flowers project located at: https://github.com/erikflowers/weather-icons
+ * This project is open-source and can be found at: https://github.com/pwittchen/WeatherIconView
+ * @author Piotr Wittchen
+ */
 public class WeatherIconView extends TextView {
     private final static String PATH_TO_WEATHER_FONT = "fonts/weather.ttf";
     private final static int DEFAULT_WEATHER_ICON_SIZE = 100;
@@ -44,26 +50,32 @@ public class WeatherIconView extends TextView {
         }
 
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.WeatherIconView);
-        initIcon(typedArray);
+        initIconResource(typedArray);
         initIconSize(typedArray);
         initIconColor(typedArray);
         typedArray.recycle();
     }
 
-    private void initIcon(TypedArray typedArray) {
-        String weatherIconCode = typedArray.getString(R.styleable.WeatherIconView_weatherIcon);
+    private void initIconResource(TypedArray typedArray) {
+        String weatherIconCode = typedArray.getString(R.styleable.WeatherIconView_weatherIconResource);
 
         if (weatherIconCode == null) {
             return;
         }
 
-        WeatherIcon weatherIcon = WeatherIcon.valueOf(weatherIconCode);
+//        WeatherIcon weatherIcon = WeatherIcon.valueOf(weatherIconCode);
 
-        if (weatherIcon == null) {
+        if (weatherIconCode == null || weatherIconCode.isEmpty()) {
             return;
         }
 
-        setText(weatherIcon.toString());
+        setText(weatherIconCode);
+
+//        if (weatherIcon == null) {
+//            return;
+//        }
+//
+//        setText(weatherIcon.toString());
     }
 
     private void initIconSize(TypedArray typedArray) {
@@ -76,14 +88,28 @@ public class WeatherIconView extends TextView {
         setTextColor(weatherIconColor);
     }
 
-    public void setIcon(WeatherIcon icon) {
-        setText(icon.toString());
+    /**
+     * sets weather icon basing on String resources
+     * Icons are created from weather-icons TTF font by Erik Flowers
+     * Full icons reference can be found at: http://erikflowers.github.io/weather-icons/
+     * @param iconCode icon code located in res/values/strings.xml file
+     */
+    public void setIconResource(String iconCode) {
+        setText(iconCode);
     }
 
+    /**
+     * sets icon size
+     * @param size icon size as an integer; default size is equal to 100
+     */
     public void setIconSize(int size) {
         setTextSize(size);
     }
 
+    /**
+     * sets icon color resource
+     * @param colorResource color resource - eg. Color.RED or any custom color; default is Color.BLACK
+     */
     public void setIconColor(int colorResource) {
         setTextColor(colorResource);
     }
