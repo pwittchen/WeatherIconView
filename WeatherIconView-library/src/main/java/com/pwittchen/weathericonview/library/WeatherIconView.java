@@ -59,23 +59,11 @@ public class WeatherIconView extends TextView {
     private void initIconResource(TypedArray typedArray) {
         String weatherIconCode = typedArray.getString(R.styleable.WeatherIconView_weatherIconResource);
 
-        if (weatherIconCode == null) {
-            return;
-        }
-
-//        WeatherIcon weatherIcon = WeatherIcon.valueOf(weatherIconCode);
-
         if (weatherIconCode == null || weatherIconCode.isEmpty()) {
             return;
         }
 
         setText(weatherIconCode);
-
-//        if (weatherIcon == null) {
-//            return;
-//        }
-//
-//        setText(weatherIcon.toString());
     }
 
     private void initIconSize(TypedArray typedArray) {
