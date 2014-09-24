@@ -34,7 +34,7 @@ weatherIconView.setIconColor(Color.BLACK);
 
 Icons reference is available at: http://erikflowers.github.io/weather-icons/
 
-In Weather Icon View for Android dashes (-) are replaced with underscored (_), but names of the icons are the same.
+In Weather Icon View for Android dashes (-) are replaced with underscores (_), but names of the icons are the same.
 
 ## Example
 
