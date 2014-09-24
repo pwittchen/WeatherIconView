@@ -30,6 +30,10 @@ weatherIconView.setIconSize(200);
 weatherIconView.setIconColor(Color.BLACK);
 ```
 
+## Icons reference
+
+Icons reference is available at: http://erikflowers.github.io/weather-icons/
+
 ## Example
 
 Example presenting, how to use this library is provided in [app](https://github.com/pwittchen/WeatherIconView/tree/master/app) directory of this repository.
