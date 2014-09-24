@@ -1,7 +1,9 @@
 Weather Icon View
 ===============================
 
-Android library providing custom view for displaying weather icon. It's useful when you are developing mobile weather app.
+Android library providing custom view for displaying weather icon. 
+
+It's useful when you are developing mobile weather app.
 
 Weather Icon View is based on [Weather Icons](https://github.com/erikflowers/weather-icons/) project by [Erik Flowers](https://github.com/erikflowers).
 
