@@ -30,6 +30,10 @@ weatherIconView.setIconSize(200);
 weatherIconView.setIconColor(Color.BLACK);
 ```
 
+## Screenshot
+
+![Screenshot](screenshot.png "Screenshot")
+
 ## Example
 
 Example presenting, how to use this library is provided in [app](https://github.com/pwittchen/WeatherIconView/tree/master/app) directory of this repository.
