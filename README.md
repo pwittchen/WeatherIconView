@@ -40,7 +40,7 @@ In Weather Icon View for Android, dashes (-) are replaced with underscores (_), 
 
 ## Example
 
-Example presenting, how to use this library is provided in [app](https://github.com/pwittchen/WeatherIconView/tree/master/app) directory of this repository.
+Example presenting, how to use this library is provided in `app` directory of this repository.
 
 ## Screenshot
 
