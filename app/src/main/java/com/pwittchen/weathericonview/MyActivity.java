@@ -1,9 +1,7 @@
-package com.pwitchen.weathericonview;
+package com.pwittchen.weathericonview;
 
-import android.graphics.Color;
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
-
 import com.pwittchen.weathericonview.library.WeatherIconView;
 
 /**
@@ -11,7 +9,7 @@ import com.pwittchen.weathericonview.library.WeatherIconView;
  * WeatherIconView can be configured in layout. See: res/layout/activity_my.xml file
  * It can be also configured programmatically. See commented code below.
  */
-public class MyActivity extends ActionBarActivity {
+public class MyActivity extends Activity {
 
     private WeatherIconView weatherIconView;
 
@@ -24,7 +22,7 @@ public class MyActivity extends ActionBarActivity {
 //        Uncomment code below if you want to configure WeatherIconView programmatically.
 //        After that, you can remove custom parameters from res/layout/activity_my.xml file
 
-//        weatherIconView.setIconResource(getString(R.string.wi_day_sunny));
+//        weatherIconView.setIconResource(getString(R.string.wi_day_sunny_overcast));
 //        weatherIconView.setIconSize(200);
 //        weatherIconView.setIconColor(Color.BLACK);
     }
