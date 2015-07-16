@@ -23,7 +23,7 @@ public class MyActivity extends Activity {
 //        After that, you can remove custom parameters from res/layout/activity_my.xml file
 
 //        weatherIconView.setIconResource(getString(R.string.wi_day_sunny_overcast));
-//        weatherIconView.setIconSize(200);
+//        weatherIconView.setIconSize(100);
 //        weatherIconView.setIconColor(Color.BLACK);
     }
 }
