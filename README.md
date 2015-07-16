@@ -19,7 +19,7 @@ Weather Icon View is based on [Weather Icons](https://github.com/erikflowers/wea
     android:layout_height="wrap_content"
     custom:weatherIconResource="@string/wi_day_sunny_overcast"
     custom:weatherIconColor="@android:color/black"
-    custom:weatherIconSize="200" />
+    custom:weatherIconSize="100" />
 ```
 
 ### In Java code (programmatically)
@@ -28,7 +28,7 @@ Weather Icon View is based on [Weather Icons](https://github.com/erikflowers/wea
 WeatherIconView weatherIconView;
 weatherIconView = (WeatherIconView) findViewById(R.id.my_weather_icon);
 weatherIconView.setIconResource(getString(R.string.wi_day_sunny_overcast));
-weatherIconView.setIconSize(200);
+weatherIconView.setIconSize(100);
 weatherIconView.setIconColor(Color.BLACK);
 ```
 
