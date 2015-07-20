@@ -21,7 +21,7 @@ Weather Icon View is based on [Weather Icons](https://github.com/erikflowers/wea
 ### In XML Layout
 
 ```xml
-<com.github.pwittchen.weathericonview.library.WeatherIconView
+<com.github.pwittchen.weathericonview.WeatherIconView
     android:id="@+id/my_weather_icon"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

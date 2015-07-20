@@ -1,4 +1,4 @@
-package com.github.pwittchen.weathericonview.library;
+package com.github.pwittchen.weathericonview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -6,6 +6,8 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.widget.TextView;
+
+import com.github.pwittchen.weathericonview.library.R;
 
 /**
  * Weather Icon View allows you to create Weather Icon for your Android application
