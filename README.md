@@ -7,6 +7,14 @@ Android library providing custom view for displaying weather icon.
 
 Weather Icon View is based on [Weather Icons](https://github.com/erikflowers/weather-icons/) project by [Erik Flowers](https://github.com/erikflowers).
 
+## Contents
+* [Usage](#usage)
+ - [In XML layout](#in-xml-layout)
+ - [In Java code](#in-java-code)
+* [Icons reference](#icons-reference)
+* [Example](#example)
+* [Screenshot](#screenshot)
+* [License](#license)
 
 ## Usage
 
@@ -22,7 +30,7 @@ Weather Icon View is based on [Weather Icons](https://github.com/erikflowers/wea
     custom:weatherIconSize="100" />
 ```
 
-### In Java code (programmatically)
+### In Java code
 
 ```java
 WeatherIconView weatherIconView;
