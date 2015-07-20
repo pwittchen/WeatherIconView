@@ -10,5 +10,7 @@ android:
 install:
   - true
 
+sudo: false
+
 script:
   - ./gradlew clean build
