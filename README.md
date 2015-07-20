@@ -1,7 +1,7 @@
 Weather Icon View
 ===============================
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Weather%20Icon%20View-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1393)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Weather%20Icon%20View-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1393) [![Build Status](https://travis-ci.org/pwittchen/WeatherIconView.svg?branch=master)](https://travis-ci.org/pwittchen/WeatherIconView)
 
 Android library providing custom view for displaying weather icon. 
 
