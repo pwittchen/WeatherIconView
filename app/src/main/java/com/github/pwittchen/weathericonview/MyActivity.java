@@ -1,8 +1,8 @@
-package com.pwittchen.weathericonview;
+package com.github.pwittchen.weathericonview;
 
 import android.app.Activity;
 import android.os.Bundle;
-import com.pwittchen.weathericonview.library.WeatherIconView;
+import com.github.pwittchen.weathericonview.library.WeatherIconView;
 
 /**
  * This is an exemplary Activity presenting how WeatherIconView works

@@ -1,4 +1,4 @@
-package com.pwittchen.weathericonview.library;
+package com.github.pwittchen.weathericonview.library;
 
 import android.content.Context;
 import android.content.res.TypedArray;
