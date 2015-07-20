@@ -21,8 +21,10 @@ public class MyActivity extends Activity {
         setContentView(R.layout.activity_my);
         weatherIconView = (WeatherIconView) findViewById(R.id.my_weather_icon);
 
-//        Uncomment code below if you want to configure WeatherIconView programmatically.
-//        After that, you can remove custom parameters from res/layout/activity_my.xml file
+        /**
+         * Uncomment code below if you want to configure WeatherIconView programmatically.
+         * After that, you can remove custom parameters from res/layout/activity_my.xml file
+         */
 
 //        weatherIconView.setIconResource(getString(R.string.wi_day_sunny_overcast));
 //        weatherIconView.setIconSize(100);
