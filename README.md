@@ -1,22 +1,25 @@
 Weather Icon View
 ===============================
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Weather%20Icon%20View-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1393) [![Build Status](https://travis-ci.org/pwittchen/WeatherIconView.svg?branch=master)](https://travis-ci.org/pwittchen/WeatherIconView)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Weather%20Icon%20View-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1393) [![Build Status](https://travis-ci.org/pwittchen/WeatherIconView.svg?branch=master)](https://travis-ci.org/pwittchen/WeatherIconView) ![Maven Central](https://img.shields.io/maven-central/v/com.github.pwittchen/weathericonview.svg?style=flat)
 
 Android library providing custom view for displaying weather icon. 
 
 Weather Icon View is based on [Weather Icons](https://github.com/erikflowers/weather-icons/) project by [Erik Flowers](https://github.com/erikflowers).
 
-## Contents
+Contents
+--------
 * [Usage](#usage)
  - [In XML layout](#in-xml-layout)
  - [In Java code](#in-java-code)
 * [Icons reference](#icons-reference)
 * [Example](#example)
 * [Screenshot](#screenshot)
+* [Download](#download)
 * [License](#license)
 
-## Usage
+Usage
+-----
 
 ### In XML Layout
 
@@ -30,7 +33,8 @@ Weather Icon View is based on [Weather Icons](https://github.com/erikflowers/wea
     custom:weatherIconSize="100" />
 ```
 
-### In Java code
+In Java code
+------------
 
 ```java
 WeatherIconView weatherIconView;
@@ -40,19 +44,43 @@ weatherIconView.setIconSize(100);
 weatherIconView.setIconColor(Color.BLACK);
 ```
 
-## Icons reference
+Icons reference
+---------------
 
 Icons reference is available at: http://erikflowers.github.io/weather-icons/
 
 In Weather Icon View for Android, dashes (-) are replaced with underscores (_), but names of the icons are the same.
 
-## Example
+Example
+-------
 
 Example presenting, how to use this library is provided in `app` directory of this repository.
 
-## Screenshot
+Screenshot
+----------
 
 ![Screenshot](screenshot.png "Screenshot")
+
+Download
+--------
+
+You can depend on the library through Maven:
+
+```xml
+<dependency>
+    <groupId>com.github.pwittchen</groupId>
+    <artifactId>weathericonview</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
+or through Gradle:
+
+```groovy
+dependencies {
+  compile 'com.github.pwittchen:weathericonview:1.0.0'
+}
+```
 
 License
 -------
