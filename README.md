@@ -70,7 +70,7 @@ You can depend on the library through Maven:
 <dependency>
     <groupId>com.github.pwittchen</groupId>
     <artifactId>weathericonview</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 
@@ -78,7 +78,7 @@ or through Gradle:
 
 ```groovy
 dependencies {
-  compile 'com.github.pwittchen:weathericonview:1.0.0'
+  compile 'com.github.pwittchen:weathericonview:1.1.0'
 }
 ```
 
