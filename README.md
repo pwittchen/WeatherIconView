@@ -33,8 +33,7 @@ Usage
     custom:weatherIconSize="100" />
 ```
 
-In Java code
-------------
+### In Java code
 
 ```java
 WeatherIconView weatherIconView;
