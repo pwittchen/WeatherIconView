@@ -16,6 +16,7 @@ Contents
 * [Example](#example)
 * [Screenshot](#screenshot)
 * [Download](#download)
+* [Who is using this library?](#who-is-using-this-library)
 * [License](#license)
 
 Usage
@@ -80,6 +81,11 @@ dependencies {
   compile 'com.github.pwittchen:weathericonview:1.1.0'
 }
 ```
+
+Who is using this library?
+--------------------------
+
+- [Helsinki Testbed Viewer 2.0](https://play.google.com/store/apps/details?id=fi.testbed2)
 
 License
 -------
