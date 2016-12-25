@@ -86,6 +86,10 @@ Who is using this library?
 --------------------------
 
 - [Helsinki Testbed Viewer 2.0](https://play.google.com/store/apps/details?id=fi.testbed2)
+- [Weather for Android](https://play.google.com/store/apps/details?id=com.github.handioq.weatherapp)
+- and more...
+
+Are you using this library in your app and want to be listed here? Send me a Pull Request or an e-mail to piotr@wittchen.biz.pl
 
 License
 -------
