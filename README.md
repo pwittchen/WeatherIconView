@@ -17,6 +17,7 @@ Contents
 * [Screenshot](#screenshot)
 * [Download](#download)
 * [Who is using this library?](#who-is-using-this-library)
+* [References](#references) 
 * [License](#license)
 
 Usage
@@ -92,6 +93,12 @@ Who is using this library?
 - and more...
 
 Are you using this library in your app and want to be listed here? Send me a Pull Request or an e-mail to piotr@wittchen.biz.pl
+
+References
+----------
+- [Original weather-icons project]([Weather Icons](https://github.com/erikflowers/weather-icons/))
+- [SkyIcons - similar project for Android](https://github.com/torryharris/Skycons)
+- [weather-icons usage in JavaScript application](https://gist.github.com/tbranyen/62d974681dea8ee0caa1)
 
 License
 -------
