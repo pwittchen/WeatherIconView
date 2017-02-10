@@ -96,7 +96,7 @@ Are you using this library in your app and want to be listed here? Send me a Pul
 
 References
 ----------
-- [Original weather-icons project]([Weather Icons](https://github.com/erikflowers/weather-icons/))
+- [Original weather-icons project](https://github.com/erikflowers/weather-icons/)
 - [SkyIcons - similar project for Android](https://github.com/torryharris/Skycons)
 - [weather-icons usage in JavaScript application](https://gist.github.com/tbranyen/62d974681dea8ee0caa1)
 
