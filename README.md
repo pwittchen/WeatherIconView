@@ -10,8 +10,8 @@ Weather Icon View is based on [Weather Icons](https://github.com/erikflowers/wea
 Contents
 --------
 * [Usage](#usage)
- - [In XML layout](#in-xml-layout)
- - [In Java code](#in-java-code)
+ * [In XML layout](#in-xml-layout)
+ * [In Java code](#in-java-code)
 * [Icons reference](#icons-reference)
 * [Example](#example)
 * [Screenshot](#screenshot)
