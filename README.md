@@ -92,7 +92,7 @@ Who is using this library?
 - [SpaceLaunchNow](https://github.com/caman9119/SpaceLaunchNow)
 - and more...
 
-Are you using this library in your app and want to be listed here? Send me a Pull Request or an e-mail to piotr@wittchen.biz.pl
+Are you using this library in your app and want to be listed here? Send me a Pull Request or an e-mail to piotr@wittchen.io
 
 References
 ----------
